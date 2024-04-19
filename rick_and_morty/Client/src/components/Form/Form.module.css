@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "get_schwifty";
+    src: url(../../myFonts/get_schwifty.woff);
+}
+
+
+.body {
+    background-image: url('https://images2.alphacoders.com/130/1300399.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.form {
+    width: 450px;
+    padding: 50px;
+    background-color: #c507b57c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
+    
+}
+
+.email{
+    font-size: 20px;
+    font-family: monospace;
+    color: lime;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.password{
+    font-size: 20px;
+    font-family: monospace;
+    color: lime;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.errors{
+    font-size: 15px;
+    font-family: initial;
+    color: rgb(252, 66, 66)
+}
+
+.button{
+    background-color: #3700ff; 
+    color: white; 
+    border: none ; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-family: "get_schwifty"; 
+    font-weight: bold;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+.button:hover {
+    background-color: blue;
+}
+
+body{
+    margin: 0px
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "get_schwifty";
+  src: url(../../myFonts/get_schwifty.woff);
+}
+
+.tarjeta {
+    position: relative; 
+    background-color: rgba(57, 197, 240, 0.589);
+    padding: 20px;
+    width: 330px;
+    border: 10px solid black;
+    border-radius: 30px;
+  }
+  
+  .name {
+    position: absolute; 
+    bottom: 230px;  
+    left: 40px;
+    color: black;
+    background-color: rgba(255, 195, 127, 0.719); 
+    padding: 8px;
+    border-radius: 80px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+  }
+  .button{
+    position: top;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(116, 19, 19);
+    font-family: "get_schwifty";
+    font-size: medium;
+    font-weight: bolder;
+    color: white
+  }
+
+  .heart{
+    position: left;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .description{
+    font-family: monospace;
+    color: blue;
+  }

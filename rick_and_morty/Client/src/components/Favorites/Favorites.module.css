@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.order_and_filter{
+    text-align: center;
+    font-size: medium;
+    font-family: monospace;
+    color:white
+}

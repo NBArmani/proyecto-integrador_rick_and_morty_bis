@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "get_schwifty";
+    src: url(../../myFonts/get_schwifty.woff);
+}
+
+.container {
+background-color: rgba(0, 255, 13, 0.589);
+padding: 20px;
+width: 330px;
+position: absolute;
+left: 100px;
+border-radius: 40px;
+font-family: "get_schwifty";
+border: 5px solid darkgreen
+}
+

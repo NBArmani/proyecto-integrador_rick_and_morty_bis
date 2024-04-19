@@ -1,0 +1,8 @@
+.App {
+   text-align: center;
+   background-image: url('https://i.pinimg.com/originals/66/ed/04/66ed048c5c411c85c90434d8aea5b8cd.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   min-height: 100vh;
+}
+
