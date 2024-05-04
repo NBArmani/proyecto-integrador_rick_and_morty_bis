@@ -1,4 +1,4 @@
-//?CODIGO ANTERIOR
+//? CODIGO ANTERIOR
 //const http = require("http")
 //const characters = require("./utils/data")
 //const getCharById = require("./controllers/getCharById")
@@ -16,8 +16,27 @@
 //? CODIGO ANTERIOR
 
 const server = require('./app')
-
 const PORT = 3001
-server.listen(PORT, () => {
-    console.log(`Server raised in port: ${PORT}`)
-})
+const { conn } = require('./DB_connection')
+
+/*try {
+    server.listen(PORT, async () => {
+        console.log(`Server raised in port: ${PORT}`)
+        await conn.sync({})
+    })
+} catch (error) {
+    console.log(error)
+}*/
+
+conn
+    .sync({ alter: true })
+    .then(() => {
+        server.listen(PORT, async () => {
+            console.log(`Server raised in port: ${PORT}`)
+            await conn.sync({})
+        })
+    })
+    .catch((error) => {
+        console.log(error)
+    })
+
